@@ -10,4 +10,4 @@ prod:
   log_driver: "syslog"
   log_opt:
     syslog-address: ${SYSLOG_ADDRESS}
-    tag: rw-dataset${STAGING}
+    tag: gfw-biomass-loss-api${STAGING}
